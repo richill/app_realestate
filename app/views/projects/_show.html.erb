@@ -1,0 +1,64 @@
+<div class="medium-12 columns projects_show_section">
+  <!-- project -->
+  <div class="project_image_banner">
+    <div class="project_inner_image_banner">
+      <div class="banner_img"><%= image_tag("img_project_01_1600x592.jpg") %></div>
+      <div class="banner_fade"><%= image_tag("img_project_banner-fade.png") %></div>
+      <div class="image_content">
+        <div class="image_inner_content">
+          <div class="image_text_section">
+            <div class="small_header">project</div>
+            <div class="project_name"><%= @project.name %></div>
+            <div class="project_sector">
+              <span>sector:</span>
+              <span>uk residential</span>
+            </div>
+            <div class="project_sector">Cost & Commercial ManagementProject & Contract Management</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+  <div class="medium-12 columns project_content">
+    <div class="text_inner_content">
+      <div class="text_section">
+        <div class="text_header">client</div>
+        <div class="text_content"><%= @project.client %></div>
+      </div>
+
+      <div class="text_section">
+        <div class="text_header">sector</div>
+        <div class="text_content">UK RESIDENTIAL</div>
+        <div class="text_adjust">cost & commercial management project & contract management</div>
+      </div>
+      <div class="text_section">
+        <div class="text_header">project decription</div>
+        <div class="text_content"><%= @project.description %></div>
+      </div>
+      <div class="action_btns hide">
+        <%= link_to 'Edit', edit_project_path(@project) %> |
+        <%= link_to 'Back', projects_path %>
+      </div>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+  <!-- project -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

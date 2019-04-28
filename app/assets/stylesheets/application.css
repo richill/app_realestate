@@ -1,0 +1,67 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require font-awesome
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+ *= require foundation
+ */
+
+
+/*=========================================
+    general css content
+  =========================================*/
+
+/*colours*/
+/*orange: #DA9549 | rgb: 218, 149, 73*/
+/*black:  #2B2D48 | rgb: 43, 45, 72*/
+/*gray:   #858585 | rgb: 133, 133, 133*/
+
+
+body {
+  line-height: 1.5 !important;
+  margin: 0px !important;
+}
+
+.clear { 
+  clear: both; 
+}
+
+.hide { 
+  display: none; 
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus
+ {
+    outline: none !important;
+}
+
+a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.active {
+  color: #DA9549 !important;
+}
+
+.active:hover {
+  color: #DA9549 !important;
+}
+
+
+

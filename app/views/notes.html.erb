@@ -1,0 +1,79 @@
+<div>
+  <div class="info_btn"><a href="#" data-reveal-id="myModal-advert-outsourceinfo"><i class="fa fa-info-circle"></i> find out more about classifying adverts as remote & non-remote opportunities</a></div>
+  <div><%= render 'shared/modal_advert_remote_outsource_information' %></div>
+</div>
+
+<div class="remote_nonremote_info_section">
+  <div id="myModal-advert-outsourceinfo" class="reveal-modal remote_nonremote_info_modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <h2 id="modalTitle-remote-nonremote-info">Remote & Non-remote opportunities</h2>
+    <div class="remote_nonremote_info_inner_section">
+      
+      <div class="content"></div>
+
+    </div>
+    <a class="close-reveal-modal cancel_button" aria-label="Close">&#215;</a>
+  </div>
+</div>
+
+
+--------------------------------------------------------------------------
+
+
+<div class="about">
+  <%= truncate(advert.content, length: 170) %>
+  <span><a href="#<%= advert.id %>" data-reveal-id="<%= dom_id(advert) %>_aboutadvert">view</a></span>
+  <div><%= render partial: 'shared/modal_aboutadvert', locals: { advert: advert } %></div>
+</div>
+
+<div class="summary_about_advert_section">
+  <div id="<%= dom_id(advert) %>_aboutadvert" class="reveal-modal summary_about_advert_modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <h2 id="modalTitle-about">summary</h2>
+    <div class="summary_advert_inner_section">
+      
+      <div class="advert_text_content"></div>
+
+      <div class="about"><span class="about_title">About Position: </span><%= advert.content %></div>
+    </div>
+    <a class="close-reveal-modal cancel_button" aria-label="Close">&#215;</a>
+  </div>
+</div>
+
+
+
+--------------------------------------------------------------------------
+
+
+
+<%= link_to '#' do %>
+  <span><i class="fa fa-cogs"></i></span>
+  <span>users</span>
+<% end %>
+
+
+
+--------------------------------------------------------------------------
+
+
+
+@media only screen and (min-width: 1025px) {
+  .header_section .header_listed_contents  {
+    width: 1000px;
+    margin: auto;
+  }
+}
+
+
+--------------------------------------------------------------------------
+
+lookk here: L: 320
+@media only screen and (max-width: 640px) {
+  .content_homepg_section .project_info_conetnt {
+    width: 100%;
+    // padding: 0px 116px !important;
+    position: relative;
+  }
+}
+
+
+
+

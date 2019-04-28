@@ -1,0 +1,65 @@
+<div class="medium-12 columns header_section">
+
+  <!-- non responsive header content -->
+  <div class="header_inner_content">
+    <div class="header_listed_contents">
+
+      <!-- left_section -->
+      <div class="left_section">
+        <ul>
+          <li><%= link_to(image_tag("img_logo.png"), root_path) %></li>
+        </ul>
+      </div>
+      <!-- left_section -->
+
+      <!-- right_section -->
+      <div class="right_section non_responsive_header">
+        <ul>
+          <li><%= link_to "contact", ".ho_contact", rel: "relativeanchor" %></li>
+          <li><%= link_to "service", ".ho_service", rel: "relativeanchor" %></li>
+          <li><%= link_to "projects", ".ho_projects", rel: "relativeanchor" %></li>
+          <li><%= link_to "leadership", ".ho_leadership", rel: "relativeanchor" %></li>
+          <li><%= link_to "our company", ".ho_company", rel: "relativeanchor", class: "active" %></li>
+        </ul>
+      </div>
+      <!-- right_section -->
+
+      <!-- responsive menu icon -->
+      <div class="right_section responsive_header">
+        <ul>
+          <li class="icon_menu">
+            <%= link_to "#" do %>
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+      <!-- responsive menu icon -->
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <!-- non responsive header content -->
+
+  
+
+  <!-- responsive header content -->
+  <div class="responsive_header_content">
+    <ul>
+      <li><%= link_to "our company", root_path %></li>
+      <li><%= link_to "leadership", leadership_path %></li>
+      <li><%= link_to "projects", all_projects_path %></li>
+      <li><%= link_to "service", service_path %></li>
+      <li><%= link_to "contact", contact_us_path, class: "last_child" %></li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+  <!-- responsive header content -->
+</div>
+
+
+
+
+
+
+

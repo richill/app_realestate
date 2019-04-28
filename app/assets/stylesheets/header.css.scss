@@ -1,0 +1,171 @@
+/*===================================================
+    Page: header
+    File: views/shared/header.html.erb
+  ===================================================*/
+
+.header_section {
+  padding: 0px !important;
+  height: 75px;
+  border-bottom: 1px solid transparent;
+  position: fixed !important;
+  z-index: 1;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0px 5px 88px #2B2D48;
+}
+
+.header_section .header_inner_content ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.header_section .header_inner_content ul li a {
+  color: #2B2D48;
+}
+
+.header_section .header_listed_contents {
+  padding: 0px 15px;
+}
+@media only screen and (min-width: 1025px) {
+  .header_section .header_listed_contents  {
+    width: 1000px;
+    margin: auto;
+  }
+}
+
+.header_section .left_section {
+  float: left;
+  padding: 15px 0px;
+}
+
+.header_section .left_section ul li {
+  float: left;
+}
+
+.header_section .left_section ul li a img {
+  width: 240px;
+}
+
+.header_section .right_section {
+  float: right;
+  padding: 25px 0px;
+}
+
+.right_section_icon {
+  padding: 21px 0px !important;
+}
+
+.header_section .right_section ul li {
+  float: right;
+}
+
+.header_section .right_section ul li a {
+  font-size: 12px;
+  margin-left: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.header_section .right_section ul li a:hover {
+  color: #858585;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.header_section .right_section .icon_menu i {
+  font-size: 30px;
+  font-weight: 300;
+  color: #2B2D48;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.header_section .right_section .icon_menu i:hover {
+  color: #858585;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+
+// ----------------------------------
+//   responsive header
+// ----------------------------------
+
+@media only screen and (min-width: 1025px) {
+  .header_section .responsive_header  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header_section .non_responsive_header  {
+    display: none;
+  }
+}
+
+.responsive_header_content {
+  background-color: #858585;
+  background-color: rgba(133, 133, 133, 0.9) !important;
+  height: 350px;
+}
+@media only screen and (min-width: 1024px) {
+  .header_section .responsive_header_content  {
+    display: none;
+  }
+}
+
+.responsive_header_content ul {
+  list-style-type: none;
+  margin: 0px !important;
+}
+
+.responsive_header_content ul li a {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 25px 15px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.responsive_header_content ul li .last_child {
+  border-bottom: 1px solid transparent;
+}
+
+.responsive_header_content ul li a:hover {
+  text-decoration: none;
+  color: #DA9549 !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

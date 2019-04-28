@@ -1,0 +1,136 @@
+/*===================================================
+    Page: footer
+    File: views/shared/footer.html.erb
+  ===================================================*/
+
+.footer_section {
+  background-color: #2B2D48;
+  padding: 15px 0px 30px;
+}
+
+.footer_section .footer_inner_section {
+  background-color: transparent;
+  height: 100px;
+  padding: 22px 0px;
+}
+@media only screen and (min-width: 1025px) {
+  .footer_section .footer_inner_section  {
+    width: 1000px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .footer_section .footer_inner_section  {
+    height: 200px;
+  }
+}
+
+.footer_section .footer_text {
+  padding: 0px !important;
+}
+@media only screen and (max-width: 1025px) {
+  .footer_section .footer_text  {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.footer_section .logo_img {
+  border-radius: 200px;
+  background-color: rebeccapurple;
+  display: inline-block;
+  background-color: #DA9549;
+}
+
+.footer_section .copy_right {
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-left: 5px;
+}
+
+.footer_section .terms a {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-left: 12px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.footer_section .terms a:hover {
+  color: #DA9549 !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.footer_section .designer a {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-left: 12px;
+  text-align: right;
+  padding: 19px 0px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+@media only screen and (min-width: 1025px) {
+  .footer_section .designer a {
+    float: right;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .footer_section .designer a {
+    margin-top: 9px;
+    display: inline-block;
+    margin-left: 0px;
+  }
+}
+
+.footer_section .designer a:hover {
+  text-decoration: none;
+  color: #DA9549 !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+/*===================================================
+    Page: privacy and cookies page
+    File: views/shared/_content_termspg.html.erb
+  ===================================================*/
+
+.content_termspg_section {
+  padding: 0px !important
+}
+
+.content_termspg_section .termspg_cover {
+  padding: 50px 15px;
+}
+
+.content_termspg_section .termspg_inner_section {
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #2B2D48;
+}
+@media only screen and (min-width: 1018px) {
+  .content_termspg_section .termspg_inner_section {
+    width: 1000px;
+    margin: auto;
+  }
+}
+
+.content_termspg_section .termspg_inner_section ul {
+  margin-top: 15px;
+}
+
+.content_termspg_section .termspg_inner_section ul li {
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #2B2D48;
+  margin-bottom: 10px;
+}
+
+.content_termspg_section .terms_main_header {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.content_termspg_section .terms_header {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.content_termspg_section .terms_subheader {
+  font-weight: bold;
+}
+
+.content_termspg_section .terms_spacing {
+  margin-bottom: 15px;
+}
+
+.content_termspg_section .terms_spacing .email a {
+  color: #DA9549;
+  font-weight: bold;
+}
+
+.content_termspg_section .terms_spacing .email a:hover {
+  color: #DA9549 !important;
+}
+
+
+
+
+
+
+
+
+
+
+

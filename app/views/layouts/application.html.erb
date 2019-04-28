@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= csrf_meta_tags %>
+    <%= favicon_link_tag 'apple-touch-icon.png', rel: 'apple-touch-icon', type: 'image/png' %>
+    <%= javascript_include_tag "application", 'data-turbolinks-track' => false %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css" />
+  </head>
+
+  <body>
+    <%= yield %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
+    <script type="text/javascript">$(function(){ $(document).foundation(); });</script>
+  </body>
+</html>
