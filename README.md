@@ -1,2 +1,1 @@
-app_railsTemplate
-=======
+# realestate_app
