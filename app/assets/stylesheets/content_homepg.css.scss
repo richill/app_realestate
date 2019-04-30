@@ -481,6 +481,7 @@
   margin-bottom: 7px;
   letter-spacing: 1px;
   word-spacing: 1px;
+  text-align: left !important;
 }
 
 .content_homepg_section .sub_header {
@@ -545,8 +546,14 @@
   color: #2B2D48;
   font-size: 16px;
   margin-bottom: 10px;
+  text-align: center;
 }
-
+@media only screen and (max-width: 895px) {
+  .content_homepg_section .service_text  {
+    font-size: 13px;
+    margin-bottom: 11px;
+  }
+}
 
 .content_homepg_section .sevice_list_header {
   color: #DA9549 !important;
