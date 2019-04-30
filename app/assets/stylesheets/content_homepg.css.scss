@@ -147,7 +147,7 @@
 .content_homepg_section .sub_content_project {
   background-color: #2B2D48;
   background: url(img_backgrd_01.jpg) no-repeat; 
-  height: 822px;
+  height: 1000px;
   background-size: cover;
   position: relative;
 }
@@ -161,7 +161,7 @@
 .content_homepg_section .sub_inner_content_project {
   text-align: center;
   position: absolute;
-  height: 822px;
+  height: 1000px;
   width: 100%;
 }
 @media only screen and (max-width: 640px) {
@@ -356,7 +356,6 @@
   word-spacing: 1px;
 }
 
-
 .content_homepg_section .team_text {
   margin-top: 25px;
 }
@@ -391,6 +390,10 @@
     padding: 0px !important;
     position: relative;
   }
+}
+
+.project_sub_header {
+  margin-bottom: 30px;
 }
 
 
