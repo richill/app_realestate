@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root 'static_pages#homepg'
 
   get     'contact-us',                         to: 'static_pages#contactpg'
-  get     'leadership',                         to: 'static_pages#leadershippg'
+  get     'our-team',                         to: 'static_pages#ourteampg'
   get     'all-projects',                       to: 'static_pages#projectspg'
   get     'service',                            to: 'static_pages#servicepg'
   get     'error',                              to: 'static_pages#errorpg'
