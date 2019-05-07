@@ -4,8 +4,9 @@ Rails.application.routes.draw do
   resources :users
   root 'static_pages#homepg'
 
+  get     'about-us',                           to: 'static_pages#aboutuspg'
   get     'contact-us',                         to: 'static_pages#contactpg'
-  get     'our-team',                         to: 'static_pages#ourteampg'
+  get     'our-team',                           to: 'static_pages#ourteampg'
   get     'all-projects',                       to: 'static_pages#projectspg'
   get     'service',                            to: 'static_pages#servicepg'
   get     'error',                              to: 'static_pages#errorpg'

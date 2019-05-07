@@ -8,8 +8,8 @@ class StaticPagesController < ApplicationController
   def errorpg
   end
 
-  # def leadershippg
-  # end
+  def aboutuspg
+  end
 
   def ourteampg
   end
