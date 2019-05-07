@@ -19,7 +19,8 @@
           <li><%= link_to "services", ".ho_service", rel: "relativeanchor" %></li>
           <li><%= link_to "projects", ".ho_projects", rel: "relativeanchor" %></li>
           <li><%= link_to "leadership", ".ho_leadership", rel: "relativeanchor" %></li>
-          <li><%= link_to "our company", ".ho_company", rel: "relativeanchor", class: "active" %></li>
+          <li><%= link_to "about us", ".ho_aboutus", rel: "relativeanchor" %></li>
+          <li><%= link_to "home", ".ho_home", rel: "relativeanchor", class: "active" %></li>
         </ul>
       </div>
       <!-- right_section -->
@@ -46,7 +47,8 @@
   <!-- responsive header content -->
   <div class="responsive_header_content">
     <ul>
-      <li><%= link_to "our company", root_path %></li>
+      <li><%= link_to "home", root_path %></li>
+      <li><%= link_to "about us", "#" %></li>
       <li><%= link_to "leadership", leadership_path %></li>
       <li><%= link_to "projects", all_projects_path %></li>
       <li><%= link_to "services", service_path %></li>
