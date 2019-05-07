@@ -16,9 +16,9 @@
       <div class="right_section non_responsive_header">
         <ul>
           <li><%= link_to "contact", contact_us_path, class:is_active?("contactpg") %></li>
-          <li><%= link_to "services", service_path, class:is_active?("servicepg") %></li>
           <li><%= link_to "projects", all_projects_path, class:is_active?("projectspg") %></li>
-          <li><%= link_to "leadership", leadership_path, class:is_active?("leadershippg") %></li>
+          <li><%= link_to "our team", leadership_path, class:is_active?("leadershippg") %></li>
+          <li><%= link_to "services", service_path, class:is_active?("servicepg") %></li>
           <li><%= link_to "about us", ".ho_aboutus", rel: "relativeanchor" %></li>
           <li><%= link_to "home", root_path, class:is_active?("homepg") %></li>
         </ul>
@@ -49,9 +49,9 @@
     <ul>
       <li><%= link_to "home", root_path %></li>
       <li><%= link_to "about us", "#" %></li>
-      <li><%= link_to "leadership", leadership_path %></li>
-      <li><%= link_to "projects", all_projects_path %></li>
       <li><%= link_to "services", service_path %></li>
+      <li><%= link_to "our team", leadership_path %></li>
+      <li><%= link_to "projects", all_projects_path %></li>
       <li><%= link_to "contact", contact_us_path, class: "last_child" %></li>
     </ul>
   </div>
