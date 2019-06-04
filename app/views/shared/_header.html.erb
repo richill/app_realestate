@@ -16,7 +16,7 @@
       <div class="right_section non_responsive_header">
         <ul>
           <li><%= link_to "contact", ".ho_contact", rel: "relativeanchor" %></li>
-          <li><%= link_to "projects", ".ho_projects", rel: "relativeanchor" %></li>
+          <li class="hide"><%= link_to "projects", ".ho_projects", rel: "relativeanchor" %></li>
           <li><%= link_to "our team", ".ho_ourteam", rel: "relativeanchor" %></li>
           <li><%= link_to "services", ".ho_service", rel: "relativeanchor" %></li>
           <li><%= link_to "about us", ".ho_aboutus", rel: "relativeanchor" %></li>
@@ -51,7 +51,7 @@
       <li><%= link_to "about us", about_us_path %></li>
       <li><%= link_to "services", service_path %></li>
       <li><%= link_to "our team", our_team_path %></li>
-      <li><%= link_to "projects", all_projects_path %></li>
+      <li class="hide"><%= link_to "projects", all_projects_path %></li>
       <li><%= link_to "contact", contact_us_path, class: "last_child" %></li>
     </ul>
   </div>
