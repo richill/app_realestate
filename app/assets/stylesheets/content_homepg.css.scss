@@ -396,6 +396,10 @@
   margin-bottom: 30px;
 }
 
+.content_homepg_section .img_icon img {
+  height: 30px;
+  border-radius: 200px;
+}
 
 .content_homepg_section .project_info_conetnt a:hover {
   text-decoration: none !important;
@@ -490,6 +494,7 @@
   margin-bottom: 15px;
   color: #DA9549;
   font-weight: bold;
+  position: relative;
 }
 
 @media only screen and (max-width: 800px) {
